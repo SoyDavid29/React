@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+.sidebar{
+    margin: 0 auto;
+    width: 600px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.link{
+    text-decoration: none;
+}
