@@ -15,6 +15,7 @@ body{
 
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .links{
@@ -31,4 +32,33 @@ body{
 
 .link{
     text-decoration: none;
+}
+
+.btn-menu{
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.main-menu{
+
+    position: absolute;
+    /* transform: translateX(880px); */
+    top: 40px;
+    left: 880px;
+
+    opacity: 1;
+    border: solid 2px;
+    width: 9.37rem;
+    height: 9rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.62rem
+}
+
+.main-menu.show{
+    opacity: 0;
 }

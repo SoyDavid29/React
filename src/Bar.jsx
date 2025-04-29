@@ -1,4 +1,4 @@
-export default function Bar(){
+export default function Bar({toggleMenu}){
 
    return(
 
@@ -7,7 +7,7 @@ export default function Bar(){
          <ul className="links">
            <li>About us</li>
            <li>Contact</li>
-           <li>Menu</li>
+           <button onClick={toggleMenu} className="btn-menu">Menu</button>
          </ul>
         </div>
    )
