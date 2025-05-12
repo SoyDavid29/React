@@ -1,5 +1,4 @@
-import Bar from "./Bar"
-import Menu from "./Menu"
+import Bar from "./Components/Bar"
 import { useState } from "react"
 
 function App() {
@@ -9,8 +8,7 @@ function App() {
 
   return (
     <>
-      <Bar toggleMenu={toggleMenu}/>
-      <Menu open={open}/>
+      <Bar toggleMenu={toggleMenu} open={open} /> 
     </>
   )
 }
